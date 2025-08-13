@@ -18,3 +18,14 @@ This project is a **practical Generative AI + AWS implementation** showcasing tw
   - Orchestrate multi-agent writing workflow (**CrewAI**) → Bedrock (`meta.llama2-13b-chat-v1`) via LiteLLM.
   - Fallback to direct Bedrock invocation if CrewAI unavailable.
   - Store results in S3 (`blog-output/<timestamp>.txt`).
+
+---
+
+## 🛠 Tech Stack
+
+### AWS Services
+- **Amazon SageMaker** — LLM deployment & GPU scaling
+- **Amazon Bedrock** — Managed foundation model APIs
+- **AWS Lambda + API Gateway** — Serverless API
+- **Amazon S3** — Persistent content storage
+- **AWS IAM** — Roles & permissions
